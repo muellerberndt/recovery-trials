@@ -55,7 +55,7 @@ def fig_triad():
     ax.text(5, 3.52, "the trial", ha="center", va="center", fontsize=12, fontweight="bold", color=GREY)
     ax.text(5, 3.18, "sealed key", ha="center", va="center", fontsize=9.5, color=GREY)
     arrow(ax, (3.1, 5.05), (2.1, 2.2), "records with a sealed origin,\nlabels on every inference", text_offset=(-1.2, 0.1))
-    arrow(ax, (6.9, 5.05), (7.9, 2.2), "Patch Healing is named\nafter OPH's patch repair", text_offset=(1.25, 0.1))
+    arrow(ax, (6.9, 5.05), (7.9, 2.2), "PH: Patch-Holographic first,\nwith OPH as the example,\nthen Patch Healing", text_offset=(1.25, 0.1))
     arrow(ax, (4.2, 1.25), (5.8, 1.25), "a disposition for\nevery transition", text_offset=(0, -0.6))
     fig.savefig(os.path.join(HERE, "triad.png"), dpi=200, bbox_inches="tight")
     plt.close(fig)

@@ -87,7 +87,9 @@ names the five stations of such a transformation:
   being erased;
 - M₁, the successor model.
 
-Patch healing takes its name from OPH's patch repair, and it comes with an
+The letters PH first stood for Patch-Holographic, with OPH as the
+mathematical example at hand; in October Stefaan re-read them as Patch
+Healing, keeping OPH as the reference. The healing reading comes with an
 image this repository takes seriously. A healed object has passed through an
 event, and the event becomes part of its history. If something was
 misattributed and later corrected, the correction does not erase the
