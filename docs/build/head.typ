@@ -1,0 +1,5 @@
+#set image(width: 85%)
+#show figure.where(kind: image): set figure(placement: auto)
+#set text(hyphenate: false)
+#show "⊙": set text(font: "DejaVu Sans")
+#show "₁": set text(font: "DejaVu Sans")

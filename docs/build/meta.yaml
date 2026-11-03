@@ -1,0 +1,9 @@
+author: Bernhard Mueller
+date: 3 November 2026
+papersize: a4
+mainfont: Helvetica Neue
+fontsize: 10.5pt
+linkcolor: "#1f4e79"
+margin:
+  x: 2.2cm
+  y: 2.4cm

@@ -14,6 +14,10 @@ records, F O R M for the standing of each reading, MORPH for what survived the
 transformation. A trial validates none of the three. It shows whether a step
 from records to names is licensed by the records or added by the reader.
 
+New here? Start with [Recovery trials, explained](docs/explainer.md)
+(also as a [PDF](docs/explainer.pdf)): what the three projects are, why they
+fit together, how a trial works, and where trial 01 stands.
+
 ## Trials
 
 | trial | object | state |
