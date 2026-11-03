@@ -1,0 +1,90 @@
+{
+ "schema": "recovery-trials.submission.v1",
+ "trial": "01-lepton-negative-control",
+ "reader": "your name or handle",
+ "reader_kind": "human",
+ "date": "2026-11-30",
+ "format_used": "json",
+ "card_used": true,
+ "operation": "What you did with the records, in your own words. Name the software if any.",
+ "streams": {
+  "S1": {
+   "values": null,
+   "uncertainty": null,
+   "values_provenance": null,
+   "origin": "unknown",
+   "origin_provenance": null,
+   "particles": "WITHHELD",
+   "particles_provenance": null,
+   "arguments": null,
+   "disposition": "UNRESOLVED",
+   "stopped_at": null,
+   "notes": ""
+  },
+  "S2": {
+   "values": null,
+   "uncertainty": null,
+   "values_provenance": null,
+   "origin": "unknown",
+   "origin_provenance": null,
+   "particles": "WITHHELD",
+   "particles_provenance": null,
+   "arguments": null,
+   "disposition": "UNRESOLVED",
+   "stopped_at": null,
+   "notes": ""
+  },
+  "S3": {
+   "values": null,
+   "uncertainty": null,
+   "values_provenance": null,
+   "origin": "unknown",
+   "origin_provenance": null,
+   "particles": "WITHHELD",
+   "particles_provenance": null,
+   "arguments": null,
+   "disposition": "UNRESOLVED",
+   "stopped_at": null,
+   "notes": ""
+  },
+  "S4": {
+   "values": null,
+   "uncertainty": null,
+   "values_provenance": null,
+   "origin": "unknown",
+   "origin_provenance": null,
+   "particles": "WITHHELD",
+   "particles_provenance": null,
+   "arguments": null,
+   "disposition": "UNRESOLVED",
+   "stopped_at": null,
+   "notes": ""
+  },
+  "S5": {
+   "values": null,
+   "uncertainty": null,
+   "values_provenance": null,
+   "origin": "unknown",
+   "origin_provenance": null,
+   "particles": "WITHHELD",
+   "particles_provenance": null,
+   "arguments": null,
+   "disposition": "UNRESOLVED",
+   "stopped_at": null,
+   "notes": ""
+  },
+  "S6": {
+   "values": null,
+   "uncertainty": null,
+   "values_provenance": null,
+   "origin": "unknown",
+   "origin_provenance": null,
+   "particles": "WITHHELD",
+   "particles_provenance": null,
+   "arguments": null,
+   "disposition": "UNRESOLVED",
+   "stopped_at": null,
+   "notes": ""
+  }
+ }
+}
