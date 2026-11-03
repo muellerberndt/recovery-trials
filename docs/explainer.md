@@ -166,6 +166,36 @@ is licensed by the records or added by the reader.
    wrong ones, the withheld ones, the control, the key, and the authors' own
    mistakes.
 
+### What the seal fixes
+
+Before anyone reads, three files are written and hashed, and the hashes are
+published with a timestamp proof. Together they fix:
+
+- The answer sheet. For every stream: its role (the published law, or
+  constructed and how), the exact coefficients that produced its table, the
+  three gaps a correct reading should find, the coefficient arguments the
+  records do not carry, and the dictionary entry OPH holds for it, a particle
+  name or none.
+- The construction. The script that built the key, the random seed and the
+  rule that produced it. After unsealing, anyone reruns the script and the
+  generator and gets the same tables.
+- The control. What OPH's own decoder returned on the six streams, so OPH's
+  performance is fixed before readers start, like everyone else's.
+- The published material. A second hash list covers the card, the streams,
+  the tools and the protocol as they stood at sealing, so the rules cannot
+  drift while readings come in.
+- The instrument. The commit of the OPH release and the hashes of the files
+  that define the instrument, the decoder and OPH's statements about the
+  published law.
+
+The hash binds: one changed byte in any of these files changes it, so the
+key cannot be adjusted after submissions arrive. The timestamp dates: the
+hash sits in a Bitcoin block, so the seal cannot be moved later. Neither
+hides the numbers. The tables are public, and a reader with the decoder can
+read all six. What stays sealed is the authoritative account of where each
+table came from and what OPH holds about it, which is what a reading is
+scored against.
+
 ### What the scores mean
 
 Each component of each reading gets one of the five MORPH words against the
